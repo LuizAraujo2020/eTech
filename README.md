@@ -16,6 +16,7 @@ O eTech é uma plataforma de e-commerce desenvolvida pela empresa fictícia Tech
 
 A estrutura do repositório é organizada da seguinte maneira:
 
+```
 /eTech
   ├── /src                       # Código-fonte do projeto
   │   ├── /api                   # Lógica da API
@@ -41,7 +42,7 @@ A estrutura do repositório é organizada da seguinte maneira:
   ├── /docs                      # Documentação adicional
   ├── package.json               # Gerenciador de dependências
   └── tsconfig.json              # Configuração do TypeScript
-
+```
 
 ## Instalação
 
@@ -51,66 +52,56 @@ Siga os passos abaixo para configurar o ambiente localmente:
    ```bash
    git clone https://github.com/techcart/eTech.git
    cd eTech
-   
+   ```
 ## Instalação
 
 Siga os passos abaixo para configurar o ambiente localmente:
 
-1. **Clone o repositório**:
+1. Clone o repositório:
    ```bash
    git clone https://github.com/techcart/eTech.git
    cd eTech
-Instale as dependências:
-
+    ```
+2. Instale as dependências:
+```
 npm install
-Configure as variáveis de ambiente:
-
+```
+3. Configure as variáveis de ambiente:
 Renomeie o arquivo .env.example para .env e adicione suas configurações.
-Configuração do banco de dados:
 
+4. Configuração do banco de dados:
 Execute os scripts de inicialização do banco de dados.
+```
 npm run setup-database
-Inicie o servidor de desenvolvimento:
-
+```
+5. Inicie o servidor de desenvolvimento:
+```
 npm run dev
-Contribuição
+```
+## Contribuição
 Contribuições são bem-vindas! Se você deseja contribuir, siga estas etapas:
-
-Fork o repositório
-Crie uma nova branch:
-
-
-
-
+1. Fork o repositório
+2. Crie uma nova branch:
+```
 git checkout -b feature/nome-da-feature
-Faça suas alterações e commit:
+```
+3. Faça suas alterações e commit:
+```
 git commit -m "Adicionar nova funcionalidade"
-Envie suas alterações:
-
-
-
-
+```
+4. Envie suas alterações:
+```
 git push origin feature/nome-da-feature
-Abra um pull request
-Práticas de Desenvolvimento
-Commits Frequentes: Realize commits descritivos e utilize commits semânticos para melhor rastreamento.
-Revisão de Código: Participe das revisões de código para manter a qualidade.
-Escrita de Testes: Escreva testes automatizados para garantir a funcionalidade do código.
-Licença
+```
+5. Abra um pull request
+
+## Práticas de Desenvolvimento
+- Commits Frequentes: Realize commits descritivos e utilize commits semânticos para melhor rastreamento.
+- Revisão de Código: Participe das revisões de código para manter a qualidade.
+- Escrita de Testes: Escreva testes automatizados para garantir a funcionalidade do código.
+
+## Licença
 Este projeto está sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-Contato
+## Contato
 Para mais informações, entre em contato com [seu-email@exemplo.com].
-
-
-### Instruções:
-- **Customize:** Substitua os detalhes do email, informações ou links do repositório conforme necessário.
-- **Salvar:** Salve este conteúdo em um arquivo chamado `README.md` na raiz do seu projeto.
-- **Visualização:** Depois de publicar o repositório no GitHub, você poderá visualizar o `README.md` formatado na página principal do repositório.
-
-Se precisar de mais alguma modificação ou auxílio, fique à vontade para perguntar!
-
-
-
-
-
