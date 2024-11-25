@@ -68,7 +68,7 @@ npm install
 ```
 3. Configure as variáveis de ambiente:
 
-Renomeie o arquivo .env.example para .env e adicione suas configurações.
+    Renomeie o arquivo .env.example para .env e adicione suas configurações.
 
 4. Configuração do banco de dados:
 Execute os scripts de inicialização do banco de dados.
