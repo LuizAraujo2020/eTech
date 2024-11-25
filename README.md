@@ -67,6 +67,7 @@ Siga os passos abaixo para configurar o ambiente localmente:
 npm install
 ```
 3. Configure as variáveis de ambiente:
+
 Renomeie o arquivo .env.example para .env e adicione suas configurações.
 
 4. Configuração do banco de dados:
